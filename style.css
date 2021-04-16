@@ -1,0 +1,129 @@
+body, p{
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+}
+
+.banner{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.banner_logo{
+    height: 150px;
+    width: 150px;
+}
+
+nav ul{
+    clear: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: helvetica;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active)
+{
+  background-color:silver;
+}
+
+.active{
+  background-color: silver;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-family: helvetica;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.title{
+  font-family: helvetica;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.homeheading{
+  font-family: serif;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.paragraph{
+    font-family: helvetica;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    text-align: center; justify;
+    padding: 25px 50px 75px 100px;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.white{
+    color: white;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+#back_black{
+    background-color: black;
+}
+
+.paragraph2{
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  text align: left;
+}
+
+.button{
+  padding: 15px
+  font-family: helvetica;
+  font-size: 25px;
+  background-color: white;
+  border: 3px solid silver;
+}
